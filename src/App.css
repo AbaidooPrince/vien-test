@@ -1,7 +1,24 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Airbnb Cereal App', system-ui, sans-serif;
+  }
 }
 
+.App {
+  background-color: #E5E5E5;
+}
+
+.side-menu {
+  position: absolute;
+width: 288px;
+height: 814px;
+left: 183px;
+top: 110px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
