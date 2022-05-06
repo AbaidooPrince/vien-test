@@ -7,7 +7,7 @@ import SideMenu from "./SideMenu"
   return (
     <div className="md:h-[80px] h-[50px] bg-white sticky top-0 z-40">
       <div className="flex content-center justify-between">
-        <div className="md:hidden px-4">
+        <div className="lg:hidden px-4">
         <Popover className="relative">
         {({ open }) => (
           <>
