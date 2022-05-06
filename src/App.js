@@ -12,7 +12,9 @@ function App() {
     <Routes>
       <Route path="/" element={<Dashboard />} />
     </Routes>
+    <div className="mt-7">
     <Footer />
+    </div>
     </div>
     </div>
   );

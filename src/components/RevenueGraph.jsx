@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 
 const RevenueGraph = (props) => {
     const { data } = props
     const returnHeight = (val) => {
         
-        return parseInt(val/10)
+        return (val/10).toFixed(0)
     }
 
     return (

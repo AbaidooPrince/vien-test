@@ -8,6 +8,14 @@
   }
 }
 
+.doughnut {
+  width: 160px !important;
+}
+
+.line {
+  width: 100% !important;
+  height: 350px !important;
+}
 .App {
   background-color: #E5E5E5;
 }
