@@ -9,7 +9,6 @@
     "boxicons": "^2.1.2",
     "chart.js": "^3.7.1",
     "react": "^18.1.0",
-    "faker": "5.5.3",
     "react-chartjs-2": "^4.1.0",
     "react-dom": "^18.1.0",
     "react-router-dom": "^6.3.0",

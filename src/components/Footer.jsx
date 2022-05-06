@@ -18,7 +18,7 @@ const Footer = () => {
         <div className="py-4">
             <div className="grid md:grid-cols-4 gap-4 text-gray-600 text-sm">
                 <div className="self-center ">
-                    <div className="font-light text-center md:text-right">
+                    <div className="font-light text-center md:text-left">
                         <div className="py-2.5">
                             {location.city}
                         </div>
@@ -27,7 +27,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="text-center md:text-right">
+                <div className="text-center md:text-left">
                     <div className="text-black text-lg mb-2">
                         About
                     </div>
@@ -36,11 +36,11 @@ const Footer = () => {
                     </Link>)
                     }
                 </div>
-                <div className="text-center md:text-right">
+                <div className="text-center md:text-left">
                     <div className="text-black text-lg mb-2">Support</div>
                     {support.map(link => <Link key={link} to={'/'}><div className="font-light py-2.5">{link}</div></Link>)}
                 </div>
-                <div className="text-center md:text-right">
+                <div className="text-center md:text-left">
                     <div className="text-black text-lg mb-2 ">
                         Address
                     </div>
