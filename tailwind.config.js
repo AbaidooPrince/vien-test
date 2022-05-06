@@ -13,7 +13,9 @@ module.exports = {
       colors: {
         vien: {
         primary: '#016450',
-        white: '#FDFDFD'
+        secondary: '#FF8433',
+        white: '#FDFDFD',
+        gray: '#9EA0A5'
         }
       }
     },
