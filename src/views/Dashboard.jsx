@@ -8,7 +8,7 @@ import TotalSalesCard from "../components/TotalsCard";
 const Dashboard = () => {
     const statsCardData = [
         { value: '98.1', percentIncrease: '6.9', type:'sales', color: 'text-vien-primary', level: 'w-6/12'  },
-        { value: '13893', percentIncrease: '11.3', type:'revenue', color: 'text-vien-secondary', data: [30, 10, 100, 50, 90, 70, 30]  },
+        { value: '13893', percentIncrease: '11.3', type:'revenue', color: 'text-vien-secondary', data: [30, 10, 100, 50, 90, 50, 30]  },
         { value: '1232', percentIncrease: '11.3', type:'clients', color: 'text-vien-primary', level: 'w-8/12'  }
     ]
 

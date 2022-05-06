@@ -34,8 +34,8 @@ const TotalSalesCard = () => {
                         </div>
                     </div>
                     <div className="">
-                        
-                   <div><box-icon color="gray" name='dots-horizontal-rounded' ></box-icon></div> 
+
+                        <div><box-icon color="gray" name='dots-horizontal-rounded' ></box-icon></div>
                     </div>
 
                 </div>
@@ -43,19 +43,19 @@ const TotalSalesCard = () => {
             <hr />
             <div className="p-4">
                 <div className="flex align-middle justify-center">
-  <div className="lg:basis-1/2 doughnut">
-      <CustomDougnut {...data.chart}/>
-  </div>
-  <div className="lg:basis-1/2 text-right place-self-center">
-      <div>
-        <div className="text-2xl">${ numberWithCommas(data.invoiced)}</div>
-        <small className="text-vien-gray font-light">Invoiced</small>
-      </div>
-      <hr className="my-3" />
-        <div className="text-2xl">{ numberWithCommas(data.invoices)}</div>
-        <small className="text-vien-gray font-light">Invoices</small>
-  </div>
-</div>                
+                    <div className="lg:basis-1/2 doughnut">
+                        <CustomDougnut {...data.chart} />
+                    </div>
+                    <div className="lg:basis-1/2 text-right place-self-center">
+                        <div>
+                            <div className="text-2xl">${numberWithCommas(data.invoiced)}</div>
+                            <small className="text-vien-gray font-light">Invoiced</small>
+                        </div>
+                        <hr className="my-3" />
+                        <div className="text-2xl">{numberWithCommas(data.invoices)}</div>
+                        <small className="text-vien-gray font-light">Invoices</small>
+                    </div>
+                </div>
             </div>
 
         </div>
