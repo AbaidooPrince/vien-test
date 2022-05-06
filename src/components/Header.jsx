@@ -5,7 +5,7 @@ import SideMenu from "./SideMenu"
 
   const Header = () => {
   return (
-    <div className="md:h-[80px] h-[50px] bg-white">
+    <div className="md:h-[80px] h-[50px] bg-white sticky top-0 z-40">
       <div className="flex content-center justify-between">
         <div className="md:hidden px-4">
         <Popover className="relative">
@@ -28,7 +28,7 @@ import SideMenu from "./SideMenu"
               leaveTo="opacity-0 translate-y-1"
             >
               <Popover.Panel className="absolute left-40 z-10 w-screen max-w-sm -translate-x-1/2 transform px-4 sm:px-0 lg:max-w-3xl">
-                <div className="h-1/2 rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
+                <div className="max-h-[500px] overflow-y-auto rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
                   <SideMenu />
                 </div>
               </Popover.Panel>
